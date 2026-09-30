@@ -38,14 +38,6 @@ The layout reproduces the current head unit (home screens, Settings, Energy, bot
 - Suggested Brazilian Portuguese wording (item 8) is an example for evaluation.
 - `index.html` is fully self-contained (no build step, no external dependencies at runtime besides web fonts).
 
-## Publishing on GitHub Pages
-
-1. Push these files to the `main` branch of `arthur-lzrs/mg4urban-improvements`.
-2. In the repository, go to **Settings › Pages** and set **Source** to **GitHub Actions**.
-3. The workflow in `.github/workflows/pages.yml` deploys automatically on every push to `main` (it can also be run manually from the *Actions* tab).
-
-Alternative without Actions: **Settings › Pages › Deploy from a branch**, branch `main`, folder `/ (root)`.
-
 ## Repository structure
 
 ```
